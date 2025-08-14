@@ -8,7 +8,6 @@ function Menu({ items, title }) {
             <div className={styles.menuList}>
                 {items.map((item) => (
                     <Dish
-                        key={item.id}
                         tittel={item.tittel}
                         pris={item.pris}
                         ingredienser={item.ingredienser}

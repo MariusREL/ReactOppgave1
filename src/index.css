@@ -13,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Grid Layout Styles */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -23,7 +22,7 @@
   margin: 0 auto;
 }
 
-/* Responsive grid adjustments */
+
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
@@ -39,7 +38,6 @@
   }
 }
 
-/* Grid item styling */
 .grid-item {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -63,7 +61,6 @@
     background-color: #f9f9f9;
   }
   
-  /* Light mode grid adjustments */
   .grid-item {
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.1);
