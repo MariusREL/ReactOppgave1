@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import CreateMenuCards from './modules/CreateMenuCards.jsx';
-import './App.css'
 
+import Menu from './components/Menu.jsx';
+import { forrett, hovedrett, desserts } from './services/FilterByCourse.jsx';
+import './App.css';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
 
-  return (
-<>
-        
-        <CreateMenuCards />
-</>
-  )
+            <>
+                <Menu items={forrett} title="Forretter" />
+                <Menu items={hovedrett} title="Hovedretter" />
+                <Menu items={desserts} title="Desserter" />
+            </>
+
+    );
 }
 
-export default App
+export default App;
