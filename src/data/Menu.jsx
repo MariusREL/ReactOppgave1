@@ -36,14 +36,14 @@ export const menu = [
   },
   {
     id: 6,
-    tittel: "Brownie med Is",
+    tittel: "Brownie med is og rekefyll",
     pris: "89 kr",
-    ingredienser: "Brownie, vaniljeis, sjokoladesaus",
+    ingredienser: "Brownie, reker, vaniljeis, sjokoladesaus",
     kategori: "Dessert",
   },
   {
     id: 7,
-    tittel: "Taco-iskrem med karamellsaus",
+    tittel: "Taco-iskrem med karamellsaus og ekstra kjøttdeig toppet lakris og deilig Worcestershiresauce",
     pris: "199 kr",
     ingredienser: "Kjøttdeig, mais, ost, guacamole",
     kategori: "Hovedrett",
