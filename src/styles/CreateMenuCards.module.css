@@ -1,0 +1,12 @@
+.divContainer{
+    height: 100px;
+    color: white;
+    font-size: small;
+}
+
+.flex{
+    display: flex;
+}
+.borderWhite {
+    border: 1px solid white;
+}
